@@ -1,4 +1,4 @@
-# tunestore-App
+# tunestore
 UPSchool | Capstone PROJECT
 
 It is a prototype application for a music store mobile application that sells acoustic guitars.
