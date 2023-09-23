@@ -50,3 +50,6 @@ It is a prototype application for a music store mobile application that sells ac
 ### Project I benefited from
 
 https://github.com/cnrture/E-Commerce-App
+
+
+Favoriting will be added in the future :)
