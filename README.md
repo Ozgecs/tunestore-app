@@ -3,6 +3,8 @@ UPSchool | Capstone PROJECT
 
 It is a prototype application for a music store mobile application that sells acoustic guitars.
 
+[tunestore.pdf](https://github.com/Ozgecs/tunestore-app/files/12707121/tunestore.pdf)
+
 ## Screeens
 - Splash - SignIn - SignUp
 - Home - Search - Bag - Favorites(Not available yet)
