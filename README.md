@@ -52,4 +52,4 @@ It is a prototype application for a music store mobile application that sells ac
 https://github.com/cnrture/E-Commerce-App
 
 
-Favoriting will be added in the future :)
+- Favoriting will be added in the future :)
