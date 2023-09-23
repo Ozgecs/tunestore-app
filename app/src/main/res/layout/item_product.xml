@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tistory.zladnrms.roundablelayout.RoundableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="5dp"
+    android:padding="16dp"
+    app:cornerLeftBottom="10dp"
+    app:cornerLeftTop="10dp"
+    app:cornerRightBottom="10dp"
+    app:cornerRightTop="10dp">
+
+    <ImageView
+        android:id="@+id/iv_product"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nunitobold"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_product" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="68dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nunitolight"
+        android:text="111"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <TextView
+        android:id="@+id/tv_price3"
+        android:layout_width="68dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/nunitobold"
+        android:text="100"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="29dp"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/favorite" />
+
+</com.tistory.zladnrms.roundablelayout.RoundableLayout>

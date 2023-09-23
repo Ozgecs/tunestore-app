@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">tunestore</string>
+    <string name="invalid_mail">Not a valid email address. Should be your@email.com</string>
+    <string name="invalid_nickname">Please enter a nickname</string>
+    <string name="invalid_phone_number">Please enter a phone number</string>
+    <string name="invalid_password">"Invalid Password"</string>
+    <string name="invalid_verify_password">"Invalid Verify Password"</string>
+    <string name="invalid_cardholder_name">"Please enter cardholder name"</string>
+    <string name="invalid_credit_card_number">"Please enter credit card number"</string>
+    <string name="invalid_month">"Please select month"</string>
+    <string name="invalid_year">"Please select year"</string>
+    <string name="invalid_cvc_code">"Please enter CVC code"</string>
+    <string name="invalid_address">"Please enter address"</string>
+    <string name="invalid_bag_products">"There are no products in the cart"</string>
+    <string name="invalid_cart_format">"Please enter your 16-digit card number"</string>
+
+    <string name="total_price_format">%s₺</string>
+</resources>
